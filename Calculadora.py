@@ -1,12 +1,12 @@
 
 def calculadora():
 
-    numeroIngresado = int (input("Ingresar primer valor"))
+    numeroIngresado = float (input("Ingresar primer valor"))
 
-    numeroingresado2 = int(input("Ingresar segundo valor"))
+    numeroingresado2 = float (input("Ingresar segundo valor"))
 
 
-    seleccion = int(input("suma(1), resta(2), multiplicacion(3), division(4)"))
+    seleccion = float (input("suma(1), resta(2), multiplicacion(3), division(4)"))
 
     if seleccion == 1 :    
       resultado =  numeroIngresado + numeroingresado2
