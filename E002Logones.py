@@ -36,20 +36,26 @@ def login():
                     print("Login exitoso. Bienvenido, {}.".format(role))
                 
                     print("Tipos de actos disponibles:", actos_disponibles[role])
-                
-                elif role == "SUPERIOR" 
 
-                    acto = input ("Seleccione su acto: 1, 3, 4:")
+                    continue
+                
+                elif role == "SUPERIOR":
+
+                    actos_superior = actos_disponibles["SUPERIOR"]
+
+
+                    acto = input ("Seleccione su acto: (actos_superior)")
+
 
                     if acto == "1"
 
                     print ("Completar formulario:")
 
-                    date_fechaCierre = input ("Ingrese la fecha de presentación")
+                    date_fechaCierre = input (date("Ingrese la fecha de presentación"))
 
                     nombreEmpresa = input ("Ingrese el nombre de la empresa")
                     
-                    date_fechaPresentacionDJ = input ("Ingrese la fecha de presentación del DJ")
+                    date_fechaPresentacionDJ = input (date("Ingrese la fecha de presentación del DJ"))
 
                     #chequear si los tres datos fueron ingresados y mostrar un mensaje "Datos ingresados"
                     
